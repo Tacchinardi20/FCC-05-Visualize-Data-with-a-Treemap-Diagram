@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Top 95 Highest Grossing Movies</title>
+    <link rel="stylesheet" href="Prin's Treemap Diagram.css">
+</head>
+<body>
+    <h1 id='title'>Highest Grossing Movies<h1>
+
+    <div id='container'>
+        <svg id='canvas'>
+
+        </svg>
+
+        <div id='rightSide'>
+            <div id='tooltip'>
+
+            </div>
+
+            <svg id='legend'>
+                <g>
+                    <rect class='legend-item' x='10' y='0' width='40' height='40' fill='#ff7e00'></rect>
+                    <text x='60' y='20' fill='antiquewhite'>Action</text>
+                </g>
+
+                <g>
+                    <rect class='legend-item' x='10' y='40' width='40' height='40' fill='#0fc0fc'></rect>
+                    <text x='60' y='60' fill='antiquewhite'>Drama</text>
+                </g>
+
+                <g>
+                    <rect class='legend-item' x='10' y='80' width='40' height='40' fill='#ff0800'></rect>
+                    <text x='60' y='100' fill='antiquewhite'>Adventure</text>
+                </g>
+
+                <g>
+                    <rect class='legend-item' x='10' y='120' width='40' height='40' fill='#03c03c'></rect>
+                    <text x='60' y='140' fill='antiquewhite'>Family</text>
+                </g>
+
+                <g>
+                    <rect class='legend-item' x='10' y='160' width='40' height='40' fill='#fff600'></rect>
+                    <text x='60' y='180' fill='antiquewhite'>Animation</text>
+                </g>
+
+                <g>
+                    <rect class='legend-item' x='10' y='200' width='40' height='40' fill='#fd3f92'></rect>
+                    <text x='60' y='220' fill='antiquewhite'>Comedy</text>
+                </g>
+
+                <g>
+                    <rect class='legend-item' x='10' y='240' width='40' height='40' fill='#a020f0'></rect>
+                    <text x='60' y='260' fill='antiquewhite'>Biography</text>
+                </g>
+            </svg>
+
+            <div id='description'>
+                Top 95 Highest Grossing Movies Sorted by Revenue
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script defer src="Prin's Treemap Diagram.js"></script>
+</body>
+</html>

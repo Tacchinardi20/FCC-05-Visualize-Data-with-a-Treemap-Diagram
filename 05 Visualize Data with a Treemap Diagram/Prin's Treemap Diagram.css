@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    color: #fdf1e7;
+    background-color: #ef6a144d;
+    min-height: 100%;
+    margin: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 36px;
+    color: #1d1f20;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+svg {
+    background-color: azure;
+    padding: 2px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+#canvas {
+    font-size: 12px;
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#rightSide {
+    width: 200px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#tooltip {
+    font-size: 22px;
+    color: #1d1f20;
+    width: 200px;
+    min-height: 160px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    visibility: hidden;
+}
+
+#tooltip hr {
+    color: #1d1f20;
+    background-color: #1d1f20;
+    width: 80%;
+    height: 1.5px;
+    border: 2px;
+}
+
+#legend {
+    font-size: 16px;
+    color: rgb(56, 58, 74);
+    background-color: #1d1f20;
+    max-width: 180px;
+    min-height: 280px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+#description {
+    font-size: 18px;
+    color: #1d1f20;
+    text-align: center;
+}
+
+.tile:hover {
+    fill: gainsboro;
+}
+
+g {
+    color: #1d1f20;
+}
